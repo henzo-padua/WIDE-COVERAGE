@@ -1,0 +1,130 @@
+*{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #17233D;
+    margin-top: 25px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.link-header{
+    margin-right: 25px;
+}
+
+.link-main{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color:#6FBF44 ;
+    cursor: pointer;
+}
+
+button{
+    width: 124px;
+    height: 51px;
+    border-radius: 5px;
+    background-color: #6FBF44;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+img{
+    width: 595px;
+    height: 500px;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+
+h1{
+    width: 582px;
+    height: 164px;
+    top: 342px;
+    left: 801px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+}
+
+p{
+    width: 493px;
+    height: 99px;
+    top: 553px;
+    left: 801px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4B505A;
+    margin-top: 26px;
+    margin-bottom: 30px;
+}
+
+div{
+    display: inline-block;
+    margin-left: 100px;
+    
+}
+
+@media screen and ( max-width: 900px) {
+
+    div {
+        margin: 0;
+        position: absolute;
+        bottom: 46vh;
+        text-align: center;
+    }
+
+    img {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: relative;
+        top: 50vh;
+        padding: 15px;
+        margin: auto;
+        border: none;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    button{
+    position: relative;
+    left: 240px;
+    height: 31px;
+    width: 91px;
+    }
+
+    h1 {
+        width: 360px;
+        font-size: 30px;
+        line-height: 30px;
+        padding: auto;
+        height: auto;
+    }
+
+    p  {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        width: auto;  
+        padding: 10px;
+        height: auto;
+
+    }
+
+}
